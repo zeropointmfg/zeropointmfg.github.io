@@ -1,16 +1,3 @@
-if (document.location.pathname !== '/404.html') {
-	window.location.href = '/404.html';
-} else {
-	fetch('/404.html')
-		.then((response) => {
-			if (!response.ok) {
-				throw new Error('Page not found');
-			}
-		})
-		.catch(() => {
-			window.location.href = '/404.html';
-		});
-}
 const menu_btn = document.getElementById('menu-btn');
 const prototyping_btn = document.getElementById('prototyping-btn');
 const short_runs_btn = document.getElementById('short-runs-btn');
