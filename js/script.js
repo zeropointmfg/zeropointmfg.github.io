@@ -1,3 +1,20 @@
+if (document.location.pathname !== '/404.html') {
+	// Redirect to the custom 404 page
+	window.location.href = '/404.html';
+} else {
+	// Fetch the 404 page
+	fetch('/404.html')
+		.then((response) => {
+			if (!response.ok) {
+				throw new Error('Page not found');
+			}
+		})
+		.catch(() => {
+			// Redirect to the custom 404 page
+			window.location.href = '/404.html';
+		});
+}
+
 // Mobile Menu
 const menu_btn = document.getElementById('menu-btn');
 const prototyping_btn = document.getElementById('prototyping-btn');
