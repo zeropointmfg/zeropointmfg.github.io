@@ -56,13 +56,13 @@ let isHiddenpowder_coat_btn = true;
 document.getElementById('cnc_mill_btn').addEventListener('click', function () {
 	contentText1.textContent =
 		'CNC milling stands as a pinnacle in advanced manufacturing, utilizing computer-guided machinery to meticulously shape intricate designs from materials like metals and plastics. This technology excels in crafting three-dimensional components with unparalleled precision, making it indispensable in industries such as aerospace and automotive.';
-	readMoreLink1.href = 'pages/services/milling.html';
+	readMoreLink1.href = 'services/milling.html';
 	toggleVisibility('cnc_mill_btn');
 });
 document.getElementById('cnc_turn_btn').addEventListener('click', function () {
 	contentText1.textContent =
 		'CNC turning is a cornerstone in advanced manufacturing, employing automated lathes to shape materials into cylindrical components. It excels in producing symmetrical parts like shafts, bolts, and fittings. This technology is crucial for precision engineering, particularly in industries where cylindrical components are prevalent.';
-	readMoreLink1.href = 'pages/services/turning.html';
+	readMoreLink1.href = 'services/turning.html';
 	toggleVisibility('cnc_turn_btn');
 });
 document
@@ -70,25 +70,25 @@ document
 	.addEventListener('click', function () {
 		contentText1.textContent =
 			'Laser etching is an advanced technology in manufacturing, using laser beams controlled by a computer to precisely engrave designs on various materials. This non-contact process is ideal for creating intricate patterns, logos, or serial numbers on surfaces like metal, wood, or plastic. Laser etching ensures high precision and detail, making it a versatile solution for industries ranging from electronics to promotional products.';
-		readMoreLink1.href = 'pages/services/laser-etching.html';
+		readMoreLink1.href = 'services/laser-etching.html';
 		toggleVisibility('laser_etch_btn');
 	});
 document.getElementById('laser_cut_btn').addEventListener('click', function () {
 	contentText1.textContent =
 		'Laser cutting, at the forefront of manufacturing technology, employs computer-controlled lasers to precisely cut intricate patterns from diverse materials such as metal, wood, or acrylic. This non-contact method ensures unparalleled precision, allowing for the creation of detailed components, signage, or artistic designs. Laser cutting finds widespread application across industries, offering efficiency and versatility in fabricating custom shapes and structures with impeccable accuracy.';
-	readMoreLink1.href = 'pages/services/laser-cutting.html';
+	readMoreLink1.href = 'services/laser-cutting.html';
 	toggleVisibility('laser_cut_btn');
 });
 document.getElementById('waterjet_btn').addEventListener('click', function () {
 	contentText1.textContent =
 		'Waterjet cutting, a pinnacle in precision machining, utilizes a high-pressure stream of water mixed with abrasives to precisely cut materials. This technology excels in creating intricate designs and detailed patterns, proving versatile in aerospace and fabrication. Known for accuracy and flexibility, waterjet cutting accommodates metals, ceramics, and composites, minimizing heat impact and preserving material integrity. It offers a clean, efficient method for shaping diverse materials with precision.';
-	readMoreLink1.href = 'pages/services/waterjet-cutting.html';
+	readMoreLink1.href = 'services/waterjet-cutting.html';
 	toggleVisibility('waterjet_btn');
 });
 document.getElementById('weld_btn').addEventListener('click', function () {
 	contentText2.textContent =
 		'Welding, a cornerstone in metal fabrication, unites metal pieces through heat and pressure, creating a sturdy structure. This time-honored practice, enhanced by modern technology, provides precision and strength in forging resilient connections. Whether in construction, automotive, or artistry, welding is essential for seamless metal joins. Skilled welders employ methods like arc welding, MIG, or TIG, tailored to materials and project needs. Beyond ensuring structural integrity, welding showcases intricate craftsmanship across diverse industries.';
-	readMoreLink2.href = 'pages/services/welding.html';
+	readMoreLink2.href = 'services/welding.html';
 	toggleVisibility('weld_btn');
 });
 document
@@ -96,19 +96,19 @@ document
 	.addEventListener('click', function () {
 		contentText2.textContent =
 			'Sheet bending, integral to metal fabrication, transforms flat sheets into intricate 3D structures with precision. Using equipment like press brakes, controlled deformation produces desired shapes. Crucial in construction, automotive, and electronics, it enables complex geometries for structural integrity and aesthetics. Skilled artisans leverage sheet bending for crafting durable, functional metal components meeting diverse design requirements.';
-		readMoreLink2.href = 'pages/services/sheet-bending.html';
+		readMoreLink2.href = 'services/sheet-bending.html';
 		toggleVisibility('sheet_bend_btn');
 	});
 document.getElementById('cad_btn').addEventListener('click', function () {
 	contentText2.textContent =
 		'CAD (Computer-Aided Design) modeling is the bedrock of modern engineering, transforming how products and structures take shape. Through specialized software, designers and engineers craft detailed digital representations, fostering precise visualization, analysis, and modification pre-production. This process, pivotal in manufacturing, architecture, and product development, enhances innovation and accuracy. CAD modeling empowers creativity by iterating and refining designs in a virtual environment, ensuring optimal, functional, and aesthetically pleasing outcomes in the physical realm.';
-	readMoreLink2.href = 'pages/services/cad.html';
+	readMoreLink2.href = 'services/cad.html';
 	toggleVisibility('cad_btn');
 });
 document.getElementById('anodizing_btn').addEventListener('click', function () {
 	contentText2.textContent =
 		'Anodizing, a transformative metal surface treatment, elevates the durability, corrosion resistance, and visual allure of metals, especially aluminum. This electrochemical process forms a protective oxide layer, creating a barrier against environmental factors. Renowned for its longevity, anodizing adds vibrant colors to metals, making it a go-to in architecture, automotive, and consumer products. The controlled oxidation yields a robust finish, enduring wear and tear, and upholding the integrity of metal components across diverse industries.';
-	readMoreLink2.href = 'pages/services/anodizing.html';
+	readMoreLink2.href = 'services/anodizing.html';
 	toggleVisibility('anodizing_btn');
 });
 document
@@ -116,7 +116,7 @@ document
 	.addEventListener('click', function () {
 		contentText2.textContent =
 			'Powder coating, an innovative finishing method, transforms metal surfaces by applying and heating a dry powder, creating a durable and uniform coating. Renowned for exceptional durability and corrosion resistance, it is a preferred choice for automotive parts, furniture, and appliances. Offering a vast color palette and versatile textures, powder coating elevates both aesthetics and longevity, surpassing traditional liquid coatings. Not only does it enhance product appeal, but its eco-friendly nature minimizes environmental impact, contributing to sustainability.';
-		readMoreLink2.href = 'pages/services/powder-coating.html';
+		readMoreLink2.href = 'services/powder-coating.html';
 		toggleVisibility('powder_coat_btn');
 	});
 function toggleVisibility(buttonId) {
